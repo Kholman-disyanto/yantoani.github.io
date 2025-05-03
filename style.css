@@ -1,3 +1,4 @@
+
 *, html {
     padding:0;
     margin:0;
@@ -5,6 +6,7 @@
 
 }
 body{
+    
     background-color:rgb(231, 231, 240);
 }
 nav{
@@ -13,10 +15,12 @@ nav{
     display: flex;
     justify-content: space-between;
     padding:1rem 2rem;
-   
+    
 }
 nav ul {
 list-style: none;
+
+
 display: flex;
 align-items: center;
 gap:1rem ;
@@ -31,29 +35,34 @@ width: 50px;
 nav ul li a{
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    color: rgb(241, 239, 245);
+    color: rgb(25, 10, 56);
     font-weight: 700;
     box-shadow:box-shadow: 10px 9px 11px 0px rgba(103,72,225,0.41);
     -webkit-box-shadow: 10px 9px 11px 0px rgba(103,72,225,0.41);
     -moz-box-shadow: 10px 9px 11px 0px rgba(103,72,225,0.41);;
+   
 }
 nav ul li {
-    background-color: rgb(43, 15, 225);
+    border: 1px solid rgb(21, 20, 20);
+    background-color: rgb(226, 224, 235);
+   margin: 1px;
    
 }
 nav div h1{
     padding:1rem 1rem ;
+    
 }
 
 main{
     padding: 20px;
     text-align: center;
+
 }
 .container{
     max-width: 100%;
     margin: 0 auto;
     background-color: rgb(239, 238, 236);
-  
+   height: 100vh;
     box-shadow: 0px 0px 30px rgb(207, 85, 85);
     padding: 70px;
 
@@ -101,3 +110,14 @@ main{
     object-fit: cover; 
     margin-bottom: 10px; 
  }
+ .footer{
+background-color: rgb(120, 154, 242);
+display: flex;
+justify-content: center;
+align-items: center;
+
+ }
+.footerdua{
+    font-size: 40px;
+
+}
